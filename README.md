@@ -4,8 +4,6 @@
 
 This project analyses **103,024 ride-booking records** from an Ola/Uber-style ride-hailing dataset for July 2024. The goal is to understand platform reliability, driver and customer cancellations, driver availability issues, vehicle-type performance, and location-level operational risks.
 
-The analysis is designed to match the type of work expected from an **Operations Analyst** in a mobility platform such as DiDi: KPI monitoring, operational insights, dashboarding, cancellation analysis, and data-backed recommendations.
-
 ## Business Problem
 
 Ride-hailing platforms rely on fast matching, reliable drivers, and smooth customer experience. In this dataset, only **62.1%** of bookings were successfully completed, meaning **37.9%** of bookings did not convert into completed rides.
@@ -61,7 +59,9 @@ Main cleaning steps:
 | Canceled by Customer | 10,499     | 10.2%   |
 | Driver Not Found     | 10,124     | 9.8%    |
 
-![Booking Status Breakdown](assets/booking_status_breakdown.png)
+
+<img width="1335" height="735" alt="booking_status_breakdown" src="https://github.com/user-attachments/assets/1759512c-03a5-46cc-9607-7ee6a3a62bee" />
+
 
 ### Key insight
 
@@ -82,7 +82,9 @@ The table below shows the hours with the highest failed booking rates.
 |              9 | 4,347      | 2,680              | 61.7%             | 38.3%         |                469 |
 |             21 | 4,343      | 2,679              | 61.7%             | 38.3%         |                423 |
 
-![Hourly Completion Rate](assets/hourly_completion_rate.png)
+
+<img width="1485" height="735" alt="hourly_completion_rate" src="https://github.com/user-attachments/assets/715ac3fc-8495-4562-acdb-d306b2f98845" />
+
 
 ### Key insight
 
@@ -100,7 +102,9 @@ Completion rate is relatively stable across the day, but some hours have slightl
 | AC is Not working                            | 1,568      |
 | Wrong Address                                | 1,005      |
 
-![Top Customer Cancellation Reasons](assets/customer_cancellation_reasons.png)
+
+<img width="1335" height="735" alt="customer_cancellation_reasons" src="https://github.com/user-attachments/assets/ec9379aa-abbb-4abe-9993-935f0b3e443c" />
+
 
 ### Top driver cancellation reasons
 
@@ -111,7 +115,9 @@ Completion rate is relatively stable across the day, but some hours have slightl
 | Customer was coughing/sick          | 3,654      |
 | More than permitted people in there | 2,825      |
 
-![Top Driver Cancellation Reasons](assets/driver_cancellation_reasons.png)
+
+<img width="1335" height="735" alt="driver_cancellation_reasons" src="https://github.com/user-attachments/assets/14c6682b-40ff-42c4-a094-ab921c196cf5" />
+
 
 ### Key insight
 
@@ -131,7 +137,9 @@ Recommended action: monitor driver movement after acceptance, trigger alerts whe
 | Prime Plus     | 14,707     | 9,075              | 61.7%             | 18.2%                      | 10.0%                        | 10.0%                   | 5,015,165                 |
 | Prime SUV      | 14,655     | 8,996              | 61.4%             | 18.1%                      | 10.2%                        | 10.3%                   | 4,876,815                 |
 
-![Vehicle Completion Rate](assets/vehicle_completion_rate.png)
+
+<img width="1335" height="735" alt="vehicle_completion_rate" src="https://github.com/user-attachments/assets/fc6aced6-6b4d-4346-ad03-bbb896df1b4e" />
+
 
 ### Key insight
 
@@ -169,7 +177,9 @@ Vehicle demand is fairly balanced across vehicle types. Completion rates are als
 | Kammanahalli      | 2,071      |                215 | 10.4%                   | 61.8%             |
 | Nagarbhavi        | 2,083      |                215 | 10.3%                   | 62.5%             |
 
-![Top Pickup Locations by Driver Not Found](assets/pickup_driver_not_found.png)
+
+<img width="1335" height="735" alt="pickup_driver_not_found" src="https://github.com/user-attachments/assets/eb5b375b-2fe6-469b-86ee-c29332efbd58" />
+
 
 ### Key insight
 
@@ -205,7 +215,9 @@ Route-level analysis is useful for city operations teams because some routes may
 | Canceled by Customer | 5,770,901       |
 | Driver Not Found     | 5,499,819       |
 
-![Booking Value by Status](assets/booking_value_by_status.png)
+
+<img width="1335" height="735" alt="booking_status_breakdown" src="https://github.com/user-attachments/assets/54819ca0-4e6c-443e-bd60-a9ac58f6ba9b" />
+
 
 ### Important note
 
