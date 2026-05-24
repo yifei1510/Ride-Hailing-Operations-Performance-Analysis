@@ -1,0 +1,13 @@
+Metric,Value
+Total bookings,"103,024"
+Successful rides,"63,967"
+Completion rate,62.1%
+Failed booking rate,37.9%
+Driver cancellation rate,17.9%
+Customer cancellation rate,10.2%
+Driver not found rate,9.8%
+Completed booking value,"35,080,467"
+Potential lost booking value,"21,454,147"
+Average successful ride distance,22.9 km
+Average driver rating,4.0
+Average customer rating,4.0
