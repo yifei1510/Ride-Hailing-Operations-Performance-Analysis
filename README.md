@@ -269,30 +269,6 @@ Booking value from failed rides should be treated as **potential lost booking va
 - Route-level risk table
 - Operational recommendations
 
-## Files in This Repository
-
-```text
-.
-├── README.md
-├── Ride_Hailing_Operations_Analysis.xlsx
-├── assets/
-│   ├── booking_status_breakdown.png
-│   ├── hourly_completion_rate.png
-│   ├── customer_cancellation_reasons.png
-│   ├── driver_cancellation_reasons.png
-│   ├── vehicle_completion_rate.png
-│   ├── pickup_driver_not_found.png
-│   └── booking_value_by_status.png
-└── tables/
-    ├── kpi_summary.csv
-    ├── booking_status_summary.csv
-    ├── hourly_performance.csv
-    ├── vehicle_type_performance.csv
-    ├── pickup_location_performance.csv
-    ├── customer_cancellation_reasons.csv
-    ├── driver_cancellation_reasons.csv
-    └── high_risk_routes.csv
-```
 
 ## Skills Demonstrated
 
